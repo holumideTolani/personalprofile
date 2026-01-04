@@ -91,17 +91,11 @@ main h1 {
 }
 
 @media (max-width:768px) {
-    .container{
-        flex-direction: column    ;
-    }
+   
     .container .logo{
         display: none;
     }
-    nav ul{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
+
     .main{
         flex-direction: column;
         text-align: center;
